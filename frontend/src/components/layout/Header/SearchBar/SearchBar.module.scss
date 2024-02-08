@@ -1,9 +1,5 @@
-@import '~bootstrap/scss/bootstrap'; // Importa los estilos de Bootstrap
-
 .searchBar {
-  @extend .form-control;
 }
 
 .searchButton {
-  @extend .btn;
 }

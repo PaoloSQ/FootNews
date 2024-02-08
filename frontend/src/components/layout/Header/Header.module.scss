@@ -1,13 +1,18 @@
-@import 'bootstrap/scss/bootstrap';
-
-.customNavbar {
-  @extend .navbar;
+#logo_img {
+  width: 80px;
 }
 
-.navbarBrand {
-  @extend .navbar-brand;
+header {
+  background-color: $bg-color_1;
 }
 
 .navLink {
-  @extend .nav-link;
+  font-size: 1rem;
+  font-weight: 500 !important;
+  transition: 0.3s;
+
+  &:hover,
+  &:focus {
+    color: $red_1 !important;
+  }
 }

@@ -1,4 +1,5 @@
-@import '../../node_modules/bootstrap/scss/bootstrap';
+$primary: #ff0000;
 
-$primary-color: blue;
-$btn-primary-bg: $primary-color;
+$btn-primary-bg: $primary;
+
+@import '../../node_modules/bootstrap/scss/bootstrap';

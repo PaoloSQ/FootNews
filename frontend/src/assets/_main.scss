@@ -1,5 +1,32 @@
-@import './bootstrap_custom.scss';
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+// Variables
+$bg-color_1: #151d2b;
+$bg-color_2: #0f1520;
+$red_1: red;
+$red_2: red;
+$red_3: red;
+
+// CSS
 
 * {
-  background-color: rgb(196, 196, 196);
+  font-size: 18px;
+}
+
+body {
+  background-color: $bg-color_1;
+  font-family: 'Lato', sans-serif;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  color: white !important;
 }

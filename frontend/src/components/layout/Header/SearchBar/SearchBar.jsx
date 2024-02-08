@@ -12,7 +12,7 @@ const SearchBar = () => {
           aria-label='Buscar'
           aria-describedby='basic-addon2'
         />
-        <Button variant='primary' id='button-addon2'>
+        <Button variant='primary' bg='none' id='button-addon2'>
           <BsSearch />
         </Button>
       </InputGroup>
