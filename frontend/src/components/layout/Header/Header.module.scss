@@ -1,0 +1,13 @@
+@import 'bootstrap/scss/bootstrap';
+
+.customNavbar {
+  @extend .navbar;
+}
+
+.navbarBrand {
+  @extend .navbar-brand;
+}
+
+.navLink {
+  @extend .nav-link;
+}
