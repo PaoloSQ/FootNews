@@ -3,9 +3,10 @@
 // Variables
 $bg-color_1: #151d2b;
 $bg-color_2: #0f1520;
-$red_1: red;
-$red_2: red;
-$red_3: red;
+$red_1: rgb(255, 46, 46);
+$red_2: rgb(255, 0, 0);
+$red_3: rgb(161, 0, 0);
+$transparent: rgba(0, 0, 0, 0);
 
 // CSS
 
@@ -29,4 +30,18 @@ h6,
 ul,
 li {
   color: white !important;
+}
+
+a {
+  text-decoration: none !important;
+
+  &:hover,
+  &:focus {
+    color: $red_2 !important;
+  }
+}
+
+main {
+  background-color: $bg-color_1;
+  height: 100vh;
 }

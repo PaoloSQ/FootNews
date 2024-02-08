@@ -10,9 +10,5 @@ header {
   font-size: 1rem;
   font-weight: 500 !important;
   transition: 0.3s;
-
-  &:hover,
-  &:focus {
-    color: $red_1 !important;
-  }
+  margin-left: 0.5rem;
 }

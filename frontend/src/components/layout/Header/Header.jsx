@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar, Nav, Image, Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import SearchBar from './SearchBar/SearchBar'
-import styles from './Header.module.scss' // Estilos personalizados
+import styles from './Header.module.scss'
 
 const Header = () => {
   return (

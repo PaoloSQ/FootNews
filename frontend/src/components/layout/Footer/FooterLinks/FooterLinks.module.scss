@@ -1,0 +1,28 @@
+.FooterLinks {
+  color: #fff;
+  width: 17%;
+
+  h5 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 25px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #ccc;
+      }
+    }
+  }
+}

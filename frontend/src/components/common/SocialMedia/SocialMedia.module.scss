@@ -1,0 +1,11 @@
+.SocialMedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+
+  svg {
+    scale: 1.7;
+  }
+}

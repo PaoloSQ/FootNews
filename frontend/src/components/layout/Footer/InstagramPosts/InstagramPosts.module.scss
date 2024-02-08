@@ -1,0 +1,21 @@
+.InstagramPosts {
+  color: #fff;
+  width: 30%;
+
+  h5 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .instagramFeed {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    row-gap: 0.2rem !important;
+    justify-content: space-between;
+
+    img {
+      width: 120px;
+      height: auto;
+    }
+  }
+}
