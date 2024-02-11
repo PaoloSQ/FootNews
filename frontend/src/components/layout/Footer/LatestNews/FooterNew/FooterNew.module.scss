@@ -1,11 +1,12 @@
-.instagramPost {
+.FooterNew {
   img {
-    width: 100%;
-    height: auto;
     transition: 0.3s ease all;
 
     &:hover {
       transform: scale(1.05);
     }
+  }
+  p {
+    line-height: 1.5;
   }
 }

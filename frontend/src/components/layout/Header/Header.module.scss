@@ -2,12 +2,13 @@
   width: 80px;
 }
 
-header {
+.header {
   background-color: $bg-color_1;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
 }
 
 .navLink {
-  font-size: 1rem;
+  font-size: 1.2em !important;
   font-weight: 500 !important;
   transition: 0.3s;
   margin-left: 0.5rem;

@@ -1,25 +1,33 @@
 import React from 'react'
-import style from './FooterLinks.module.scss'
+import { Container, Row, Col, ListGroup } from 'react-bootstrap'
 
 const FooterLinks = () => {
   return (
-    <div className={style.FooterLinks}>
-      <h5>Useful Links</h5>
-      <ul>
-        <li>
-          <a href='#'>Home</a>
-        </li>
-        <li>
-          <a href='#'>Partidos</a>
-        </li>
-        <li>
-          <a href='#'>Equipos</a>
-        </li>
-        <li>
-          <a href='#'>Competiciones</a>
-        </li>
-      </ul>
-    </div>
+    <Container className='text-white'>
+      <h5 className='mb-4'>Useful Links</h5>
+      <ListGroup variant='flush'>
+        <ListGroup.Item className='border-0 bg-transparent'>
+          <a href='#' className='text-white'>
+            Home
+          </a>
+        </ListGroup.Item>
+        <ListGroup.Item className='border-0 bg-transparent'>
+          <a href='#' className='text-white'>
+            Partidos
+          </a>
+        </ListGroup.Item>
+        <ListGroup.Item className='border-0 bg-transparent'>
+          <a href='#' className='text-white'>
+            Equipos
+          </a>
+        </ListGroup.Item>
+        <ListGroup.Item className='border-0 bg-transparent'>
+          <a href='#' className='text-white'>
+            Competiciones
+          </a>
+        </ListGroup.Item>
+      </ListGroup>
+    </Container>
   )
 }
 

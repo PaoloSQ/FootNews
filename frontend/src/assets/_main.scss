@@ -1,6 +1,7 @@
+// Importar fuentes
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-// Variables
+// Variables de color
 $bg-color_1: #151d2b;
 $bg-color_2: #0f1520;
 $red_1: rgb(255, 46, 46);
@@ -8,15 +9,15 @@ $red_2: rgb(255, 0, 0);
 $red_3: rgb(161, 0, 0);
 $transparent: rgba(0, 0, 0, 0);
 
-// CSS
-
+// Estilos generales
 * {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 body {
   background-color: $bg-color_1;
   font-family: 'Lato', sans-serif;
+  margin-block: 100px;
 }
 
 a,
@@ -28,6 +29,7 @@ h4,
 h5,
 h6,
 ul,
+div,
 li {
   color: white !important;
 }
@@ -43,5 +45,14 @@ a {
 
 main {
   background-color: $bg-color_1;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.01);
+  }
 }

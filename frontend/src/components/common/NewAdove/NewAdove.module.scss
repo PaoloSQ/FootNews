@@ -1,0 +1,33 @@
+.newAdove {
+  border-radius: 10px;
+  overflow: hidden;
+  flex-grow: 1;
+
+  .img {
+    background-position: center;
+    border-radius: 10px;
+    background-size: cover;
+  }
+
+  .description {
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.783) 10%,
+      rgba(255, 255, 255, 0) 60%
+    );
+    color: white;
+    border-radius: 10px;
+
+    h4 {
+      font-size: 3em;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    .info {
+      color: grey;
+    }
+  }
+}

@@ -6,10 +6,10 @@ import styles from './Header.module.scss'
 
 const Header = () => {
   return (
-    <header>
+    <header className={`${styles.header}`}>
       <Container>
-        <Navbar expand='lg' bg='' className={styles.customNavbar}>
-          <Navbar.Brand href='/' className={styles.navbarBrand}>
+        <Navbar expand='lg' className={styles.customNavbar}>
+          <Navbar.Brand as={Link} to='/' className={styles.navbarBrand}>
             <Image src='logo.png' id={styles.logo_img} fluid rounded />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />

@@ -5,14 +5,14 @@ import style from './SearchBar.module.scss'
 
 const SearchBar = () => {
   return (
-    <Form>
+    <Form className='w-25'>
       <InputGroup>
         <FormControl
           type='text'
           placeholder='Buscar...'
           aria-label='Buscar'
           aria-describedby='basic-addon2'
-          className={style.input_search}
+          className={`${style.input_search} py-2`}
         />
         <Button id='btn_search' className={style.btn_search}>
           <BsSearch />

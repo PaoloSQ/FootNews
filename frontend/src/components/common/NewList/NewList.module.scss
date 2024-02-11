@@ -1,0 +1,27 @@
+.newList {
+  margin-top: 20px;
+
+  &:first-of-type {
+    margin-top: 0 !important;
+  }
+
+  .image {
+    width: 30%;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .description {
+    width: 65%;
+    margin-block: 10px;
+  }
+
+  .info {
+    font-size: 12px;
+    color: #666;
+  }
+}

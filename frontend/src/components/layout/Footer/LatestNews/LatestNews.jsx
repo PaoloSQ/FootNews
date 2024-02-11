@@ -1,27 +1,33 @@
 import React from 'react'
-import NewsItem from './NewsItem/NewsItem'
-import style from './LatestNews.module.scss'
+import { Container, Row } from 'react-bootstrap'
+import FooterNew from './FooterNew/FooterNew'
 
 const LatestNews = () => {
   return (
-    <div className={style.LastestNews}>
-      <h5>Lastest News</h5>
-      <NewsItem
-        imageUrl='https://via.placeholder.com/150'
-        altText='News 1'
-        content='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, veniam!'
-      />
-      <NewsItem
-        imageUrl='https://via.placeholder.com/150'
-        altText='News 2'
-        content='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, veniam!'
-      />
-      <NewsItem
-        imageUrl='https://via.placeholder.com/150'
-        altText='News 3'
-        content='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, veniam!'
-      />
-    </div>
+    <Container className='text-white'>
+      <h5 className='mb-4'>Lastest News</h5>
+      <Row className='mb-3'>
+        <FooterNew
+          imageUrl='https://via.placeholder.com/150'
+          altText='News 1'
+          content='Lorem ipsum dolor sit amet consectetur'
+        />
+      </Row>
+      <Row className='mb-3'>
+        <FooterNew
+          imageUrl='https://via.placeholder.com/150'
+          altText='News 2'
+          content='Lorem ipsum dolor sit amet consectetur'
+        />
+      </Row>
+      <Row className='mb-3'>
+        <FooterNew
+          imageUrl='https://via.placeholder.com/150'
+          altText='News 3'
+          content='Lorem ipsum dolor sit amet consectetur'
+        />
+      </Row>
+    </Container>
   )
 }
 

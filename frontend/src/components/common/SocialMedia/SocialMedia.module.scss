@@ -1,11 +1,11 @@
 .SocialMedia {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  width: 100%;
+  .icon {
+    scale: 2;
+    color: #ffffff;
+    transition: color 0.3s;
 
-  svg {
-    scale: 1.7;
+    &:hover {
+      color: $red_1;
+    }
   }
 }

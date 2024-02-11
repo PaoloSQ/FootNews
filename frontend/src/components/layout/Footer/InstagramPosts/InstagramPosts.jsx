@@ -1,19 +1,69 @@
 import React from 'react'
-import styles from './InstagramPosts.module.scss'
+import { Container, Row, Col } from 'react-bootstrap'
 import InstagramPost from './InstagramPost/InstagramPost'
+import style from './InstagramPosts.module.scss'
 
 const InstagramPosts = () => {
   return (
-    <div className={styles.InstagramPosts}>
-      <h5>Follow on Instagram</h5>
-      <div className={styles.instagramFeed}>
-        <InstagramPost imageUrl='https://via.placeholder.com/100' altText='' />
-        <InstagramPost imageUrl='https://via.placeholder.com/100' altText='' />
-        <InstagramPost imageUrl='https://via.placeholder.com/100' altText='' />
-        <InstagramPost imageUrl='https://via.placeholder.com/100' altText='' />
-        <InstagramPost imageUrl='https://via.placeholder.com/100' altText='' />
-      </div>
-    </div>
+    <Container className='text-white'>
+      <h5 className='mb-4'>Follow on Instagram</h5>
+      <Row className={style.instagramRow}>
+        <Col md={4} className={style.instagramCol}>
+          <InstagramPost
+            imageUrl='https://via.placeholder.com/100'
+            altText=''
+          />
+        </Col>
+        <Col md={4} className={style.instagramCol}>
+          <InstagramPost
+            imageUrl='https://via.placeholder.com/100'
+            altText=''
+          />
+        </Col>
+        <Col md={4} className={style.instagramCol}>
+          <InstagramPost
+            imageUrl='https://via.placeholder.com/100'
+            altText=''
+          />
+        </Col>
+        <Col md={4} className={style.instagramCol}>
+          <InstagramPost
+            imageUrl='https://via.placeholder.com/100'
+            altText=''
+          />
+        </Col>
+        <Col md={4} className={style.instagramCol}>
+          <InstagramPost
+            imageUrl='https://via.placeholder.com/100'
+            altText=''
+          />
+        </Col>
+        <Col md={4} className={style.instagramCol}>
+          <InstagramPost
+            imageUrl='https://via.placeholder.com/100'
+            altText=''
+          />
+        </Col>
+        <Col md={4} className={style.instagramCol}>
+          <InstagramPost
+            imageUrl='https://via.placeholder.com/100'
+            altText=''
+          />
+        </Col>
+        <Col md={4} className={style.instagramCol}>
+          <InstagramPost
+            imageUrl='https://via.placeholder.com/100'
+            altText=''
+          />
+        </Col>
+        <Col md={4} className={style.instagramCol}>
+          <InstagramPost
+            imageUrl='https://via.placeholder.com/100'
+            altText=''
+          />
+        </Col>
+      </Row>
+    </Container>
   )
 }
 
