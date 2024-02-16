@@ -1,20 +1,13 @@
-@import '../Header.module.scss';
-
 .dropmenu {
   background-color: $bg-color_1;
   border-bottom: 1px solid rgba(255, 0, 0, 0.3);
   z-index: 10;
   position: absolute;
-  display: #{if($isVisible, 'block', 'none')};
   width: 100%;
-  animation: dropMenuAnimation 0.5s ease-in-out forwards;
-}
+  transform: translateY(-100%);
+  transition: transform 0.5s ease-in-out;
 
-@keyframes dropMenuAnimation {
-  from {
-    transform: translateY(-100%);
-  }
-  to {
+  &.open {
     transform: translateY(0%);
   }
 }

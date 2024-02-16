@@ -1,3 +1,5 @@
+@import './DropMenu/DropMenu.module.scss';
+
 #logo_img {
   width: 80px;
 }
@@ -6,11 +8,12 @@
   background-color: $bg-color_1;
   border-bottom: 1px solid rgba(255, 0, 0, 0.3);
   z-index: 200;
+  position: relative;
 }
 
 .customNavbar {
   background-color: $bg-color_1;
-  z-index: 20;
+  z-index: 300;
 }
 
 .navLink {
@@ -18,8 +21,4 @@
   font-weight: 500 !important;
   transition: 0.3s;
   margin-left: 0.5rem;
-
-  &:hover {
-    $isVisible: true;
-  }
 }

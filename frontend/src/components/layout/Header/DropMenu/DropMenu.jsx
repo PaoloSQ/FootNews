@@ -1,21 +1,30 @@
 // DropMenu.jsx
-
 import React, { useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import NewIcon from '@common/NewIcon/NewIcon'
 import NewList from '@common/NewList/NewList'
 import styles from './DropMenu.module.scss'
 
-const DropMenu = () => {
-  // Controlamos la visibilidad del menú desplegable con useState
-  const [isVisible, setIsVisible] = useState(false)
+const DropMenu = ({ isOpen, setIsOpen }) => {
+  const [isHovering, setIsHovering] = useState(false)
+  const [hoverTimeout, setHoverTimeout] = useState(null)
 
-  const handleMouseEnter = () => setIsVisible(true)
-  const handleMouseLeave = () => setIsVisible(false)
+  const handleMouseEnter = () => {
+    setIsHovering(true)
+    clearTimeout(hoverTimeout)
+  }
+
+  const handleMouseLeave = () => {
+    const timeout = setTimeout(() => {
+      setIsHovering(false)
+      setIsOpen(false)
+    }, 500)
+    setHoverTimeout(timeout)
+  }
 
   return (
     <div
-      className={`${styles.dropmenu} py-4 w-100`}
+      className={`${styles.dropmenu} py-4 ${isOpen || isHovering ? styles.open : ''}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}>
       <Container>
