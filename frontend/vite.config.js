@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import reactRefresh from '@vitejs/plugin-react-refresh'
 import path from 'path'
-import sass from 'node-sass'
 
 export default defineConfig({
   plugins: [reactRefresh()],
