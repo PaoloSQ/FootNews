@@ -2,9 +2,20 @@
   width: 80px;
 }
 
+.dropmenu {
+  background-color: $bg-color_1;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+  z-index: 10;
+}
+
 .header {
   background-color: $bg-color_1;
   border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+.customNavbar {
+  background-color: $bg-color_1;
+  z-index: 20;
 }
 
 .navLink {

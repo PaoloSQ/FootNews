@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import NewAdove from '@components/common/NewAdove/NewAdove'
+import NewAdove from '@common/NewAdove/NewAdove'
 import style from './SectionPartidos.module.scss'
 
 const SectionPartidos = () => {

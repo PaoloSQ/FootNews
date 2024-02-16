@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import NewAdove from '@components/common/NewAdove/NewAdove'
-import NewIcon from '@components/common/NewIcon/NewIcon'
+import NewAdove from '@common/NewAdove/NewAdove'
+import NewIcon from '@common/NewIcon/NewIcon'
 
 const CompetitionSection = () => {
   return (
@@ -27,7 +27,7 @@ const CompetitionSection = () => {
         </Col>
         <Col xs={12} md={4} className='pt-4'>
           <div className='competitionsContainer mt-md-4 pb-4'>
-            <h3>Competiciones</h3>
+            <h3>Torneos</h3>
             <Container fluid className='pt-4'>
               <Row className='mb-3'>
                 <Col>

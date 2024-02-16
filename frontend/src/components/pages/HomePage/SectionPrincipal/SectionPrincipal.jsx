@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import NewAdove from '@components/common/NewAdove/NewAdove'
-import NewList from '@components/common/NewList/NewList'
+import NewAdove from '@common/NewAdove/NewAdove'
+import NewList from '@common/NewList/NewList'
 
 const SectionPrincipal = () => {
   return (

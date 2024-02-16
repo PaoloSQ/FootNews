@@ -1,4 +1,3 @@
-import styles from './HomePage.module.scss'
 import React from 'react'
 
 import Header from '../../layout/Header/Header'
@@ -31,15 +30,3 @@ const HomePage = () => {
 }
 
 export default HomePage
-
-/* 
-
-Noticias
-Transferencia
-Competencias /Competiciones / Ligas
-Resultados
-Partidos de hoy
-Entrevistas y perfiles de jugadores / historias y curiosidades / extre
-
-new adove / new_list / new_block / new_icons
-*/

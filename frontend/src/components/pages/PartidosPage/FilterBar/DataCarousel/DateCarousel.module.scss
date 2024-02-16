@@ -1,0 +1,13 @@
+.dateCarousel {
+  .arrowButton {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgba($color: $red_2, $alpha: 0.8);
+    border-radius: 100%;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

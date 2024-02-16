@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import NewBlock from '@components/common/NewBlock/NewBlock'
+import NewBlock from '@common/NewBlock/NewBlock'
 import style from './SectionTransferencias.module.scss'
 
 const TransferSection = () => {

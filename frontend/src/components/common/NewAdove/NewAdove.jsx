@@ -11,10 +11,10 @@ const NewAdove = ({
   date,
 }) => {
   return (
-    <Col xs={12} className={`d-flex ${style.newAdove} ${moreClasses}`}>
+    <Col xs={12} className={`d-flex h-100 ${style.newAdove} ${moreClasses}`}>
       <a
         href='#'
-        className={`d-flex w-100 ${style.img}`}
+        className={`d-flex w-100 ${style.img_div}`}
         style={{ backgroundImage: `url(${imageUrl})` }}>
         <div
           className={`${style.description} p-5 d-flex flex-column justify-content-end w-100`}>

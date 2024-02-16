@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import NewBlock from '@components/common/NewBlock/NewBlock'
-import NewList from '@components/common/NewList/NewList'
+import NewBlock from '@common/NewBlock/NewBlock'
+import NewList from '@common/NewList/NewList'
 import style from './SectionExtras.module.scss'
 
 const SectionExtras = () => {
