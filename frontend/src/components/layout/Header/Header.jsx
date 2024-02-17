@@ -1,12 +1,24 @@
 // Header.jsx
 import React, { useState } from 'react'
 import { Navbar, Nav, Image, Container } from 'react-bootstrap'
+import { BsSearch } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
-import SearchBar from './SearchBar/SearchBar'
+import Search from './Search/Search'
 import styles from './Header.module.scss'
 import DropMenu from './DropMenu/DropMenu'
+import 'animate.css'
 
 const Header = () => {
+  const [isOpenSearch, setIsOpenSearch] = useState(false)
+
+  const openSearch = () => {
+    setIsOpenSearch(true)
+  }
+
+  const closeSearch = () => {
+    setIsOpenSearch(false)
+  }
+
   const [isOpen, setIsOpen] = useState(false)
   const [hoverTimeout, setHoverTimeout] = useState(null)
 
@@ -52,11 +64,15 @@ const Header = () => {
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
-            <SearchBar />
+            <BsSearch
+              className={`${styles.btnSearch} ${isOpenSearch ? 'animate__animated animate__fadeIn' : ''}`}
+              onClick={openSearch}
+            />
           </Navbar>
         </Container>
       </header>
       <DropMenu isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Search isOpen={isOpenSearch} closeSearch={closeSearch} />
     </>
   )
 }

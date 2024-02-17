@@ -5,14 +5,13 @@
 }
 
 .header {
-  background-color: $bg-color_1;
+  background-color: $bg-color_2;
   border-bottom: 1px solid rgba(255, 0, 0, 0.3);
   z-index: 200;
   position: relative;
 }
 
 .customNavbar {
-  background-color: $bg-color_1;
   z-index: 300;
 }
 
@@ -21,4 +20,14 @@
   font-weight: 500 !important;
   transition: 0.3s;
   margin-left: 0.5rem;
+}
+
+.btnSearch {
+  scale: 1.4;
+  transition: 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }

@@ -8,6 +8,8 @@ $red_1: rgb(255, 46, 46);
 $red_2: rgb(255, 0, 0);
 $red_3: rgb(161, 0, 0);
 $transparent: rgba(0, 0, 0, 0);
+$grey_1: rgb(185, 185, 185);
+$grey_2: rgb(114, 114, 114);
 
 // Estilos generales
 * {
@@ -58,6 +60,22 @@ main {
   }
 }
 
+input {
+  box-shadow: none !important;
+  border: none !important;
+  outline: 0 !important;
+  &:focus {
+    box-shadow: none !important;
+    outline: 0 !important;
+    border: none !important;
+  }
+  &:active {
+    outline: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
+
 .img_div {
   border-radius: 5px;
   width: 100%;
@@ -65,4 +83,8 @@ main {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

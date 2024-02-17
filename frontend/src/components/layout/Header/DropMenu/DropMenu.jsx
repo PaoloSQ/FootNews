@@ -34,108 +34,86 @@ const DropMenu = ({ isOpen, setIsOpen }) => {
               <Col md={4}>
                 <Row className='d-flex flex-column gap-4'>
                   <Col md={6}>
-                    <a href=''>
-                      <NewIcon
-                        imageUrl='https://via.placeholder.com/100'
-                        text='Lorem ipsum.'
-                      />
-                    </a>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      text='Lorem ipsum.'
+                    />
                   </Col>
                   <Col md={6}>
-                    <a href=''>
-                      <NewIcon
-                        imageUrl='https://via.placeholder.com/100'
-                        text='Lorem ipsum.'
-                      />
-                    </a>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      text='Lorem ipsum.'
+                    />
                   </Col>
                   <Col md={6}>
-                    <a href=''>
-                      <NewIcon
-                        imageUrl='https://via.placeholder.com/100'
-                        text='Lorem ipsum.'
-                      />
-                    </a>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      text='Lorem ipsum.'
+                    />
                   </Col>
                   <Col md={6}>
-                    <a href=''>
-                      <NewIcon
-                        imageUrl='https://via.placeholder.com/100'
-                        text='Lorem ipsum.'
-                      />
-                    </a>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      text='Lorem ipsum.'
+                    />
                   </Col>
                 </Row>
               </Col>
               <Col md={4}>
                 <Row className='d-flex flex-column gap-4'>
                   <Col md={6}>
-                    <a href=''>
-                      <NewIcon
-                        imageUrl='https://via.placeholder.com/100'
-                        text='Lorem ipsum.'
-                      />
-                    </a>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      text='Lorem ipsum.'
+                    />
                   </Col>
                   <Col md={6}>
-                    <a href=''>
-                      <NewIcon
-                        imageUrl='https://via.placeholder.com/100'
-                        text='Lorem ipsum.'
-                      />
-                    </a>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      text='Lorem ipsum.'
+                    />
                   </Col>
                   <Col md={6}>
-                    <a href=''>
-                      <NewIcon
-                        imageUrl='https://via.placeholder.com/100'
-                        text='Lorem ipsum.'
-                      />
-                    </a>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      text='Lorem ipsum.'
+                    />
                   </Col>
                   <Col md={6}>
-                    <a href=''>
-                      <NewIcon
-                        imageUrl='https://via.placeholder.com/100'
-                        text='Lorem ipsum.'
-                      />
-                    </a>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      text='Lorem ipsum.'
+                    />
                   </Col>
                 </Row>
               </Col>
               <Col md={4}>
                 <Row className='d-flex flex-column gap-4'>
                   <Col md={6}>
-                    <a href=''>
-                      <NewIcon
-                        imageUrl='https://via.placeholder.com/100'
-                        text='Lorem ipsum.'
-                      />
-                    </a>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      text='Lorem ipsum.'
+                    />
+                  </Col>
+
+                  <Col md={6}>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      text='Lorem ipsum.'
+                    />
+                  </Col>
+
+                  <Col md={6}>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      text='Lorem ipsum.'
+                    />
                   </Col>
                   <Col md={6}>
-                    <a href=''>
-                      <NewIcon
-                        imageUrl='https://via.placeholder.com/100'
-                        text='Lorem ipsum.'
-                      />
-                    </a>
-                  </Col>
-                  <Col md={6}>
-                    <a href=''>
-                      <NewIcon
-                        imageUrl='https://via.placeholder.com/100'
-                        text='Lorem ipsum.'
-                      />
-                    </a>
-                  </Col>
-                  <Col md={6}>
-                    <a href=''>
-                      <NewIcon
-                        imageUrl='https://via.placeholder.com/100'
-                        text='Lorem ipsum.'
-                      />
-                    </a>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      text='Lorem ipsum.'
+                    />
                   </Col>
                 </Row>
               </Col>
