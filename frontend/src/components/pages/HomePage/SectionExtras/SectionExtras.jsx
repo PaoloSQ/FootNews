@@ -16,93 +16,117 @@ const SectionExtras = () => {
         <Row className={style.extrasContainer}>
           <Col md={4} className='mb-4'>
             <h4 className={style.title}>Entrevistas</h4>
-            <NewBlock
-              imageUrl='https://via.placeholder.com/300'
-              title='Título de la Entrevista'
-              informant='Informante'
-              date='24/05/2023'
-              moreClasses='mb-4'
-            />
-            <NewList
-              imageUrl='https://via.placeholder.com/100'
-              informant='Informante'
-              date='24/05/2023'
-              text='Texto de la primera lista'
-            />
+            <Row>
+              <NewBlock
+                imageUrl='https://via.placeholder.com/400'
+                title='Título de la Entrevista'
+                informant='Informante'
+                date='24/05/2023'
+                moreClasses='mb-4'
+              />
+            </Row>
+            <Row>
+              <NewList
+                imageUrl='https://via.placeholder.com/100'
+                informant='Informante'
+                date='24/05/2023'
+                title='Texto de la primera lista'
+              />
+            </Row>
             <hr className='my-4' />
-            <NewList
-              imageUrl='https://via.placeholder.com/100'
-              informant='Informante'
-              date='24/05/2023'
-              text='Texto de la segunda lista'
-            />
+            <Row>
+              <NewList
+                imageUrl='https://via.placeholder.com/100'
+                informant='Informante'
+                date='24/05/2023'
+                title='Texto de la segunda lista'
+              />
+            </Row>
             <hr className='my-4' />
-            <NewList
-              imageUrl='https://via.placeholder.com/100'
-              informant='Informante'
-              date='24/05/2023'
-              text='Texto de la tercera lista'
-            />
+            <Row>
+              <NewList
+                imageUrl='https://via.placeholder.com/100'
+                informant='Informante'
+                date='24/05/2023'
+                title='Texto de la tercera lista'
+              />
+            </Row>
           </Col>
           <Col md={4} className='mb-4'>
-            <h4 className={style.title}>Curiosidades</h4>
-            <NewBlock
-              imageUrl='https://via.placeholder.com/300'
-              title='Título de la Curiosidad'
-              informant='Informante'
-              date='24/05/2023'
-              moreClasses='mb-4'
-            />
-            <NewList
-              imageUrl='https://via.placeholder.com/100'
-              informant='Informante'
-              date='24/05/2023'
-              text='Texto de la primera lista'
-            />
+            <h4 className={style.title}>Entrevistas</h4>
+            <Row>
+              <NewBlock
+                imageUrl='https://via.placeholder.com/400'
+                title='Título de la Entrevista'
+                informant='Informante'
+                date='24/05/2023'
+                moreClasses='mb-4'
+              />
+            </Row>
+            <Row>
+              <NewList
+                imageUrl='https://via.placeholder.com/100'
+                informant='Informante'
+                date='24/05/2023'
+                title='Texto de la primera lista'
+              />
+            </Row>
             <hr className='my-4' />
-            <NewList
-              imageUrl='https://via.placeholder.com/100'
-              informant='Informante'
-              date='24/05/2023'
-              text='Texto de la segunda lista'
-            />
+            <Row>
+              <NewList
+                imageUrl='https://via.placeholder.com/100'
+                informant='Informante'
+                date='24/05/2023'
+                title='Texto de la segunda lista'
+              />
+            </Row>
             <hr className='my-4' />
-            <NewList
-              imageUrl='https://via.placeholder.com/100'
-              informant='Informante'
-              date='24/05/2023'
-              text='Texto de la tercera lista'
-            />
+            <Row>
+              <NewList
+                imageUrl='https://via.placeholder.com/100'
+                informant='Informante'
+                date='24/05/2023'
+                title='Texto de la tercera lista'
+              />
+            </Row>
           </Col>
           <Col md={4} className='mb-4'>
-            <h4 className={style.title}>Extras</h4>
-            <NewBlock
-              imageUrl='https://via.placeholder.com/300'
-              title='Título del Extra'
-              informant='Informante'
-              date='24/05/2023'
-              moreClasses='mb-4'
-            />
-            <NewList
-              imageUrl='https://via.placeholder.com/100'
-              informant='Informante'
-              date='24/05/2023'
-              text='Texto de la primera lista'
-            />
+            <h4 className={style.title}>Entrevistas</h4>
+            <Row>
+              <NewBlock
+                imageUrl='https://via.placeholder.com/400'
+                title='Título de la Entrevista'
+                informant='Informante'
+                date='24/05/2023'
+                moreClasses='mb-4'
+              />
+            </Row>
+            <Row>
+              <NewList
+                imageUrl='https://via.placeholder.com/100'
+                informant='Informante'
+                date='24/05/2023'
+                title='Texto de la primera lista'
+              />
+            </Row>
             <hr className='my-4' />
-            <NewList
-              imageUrl='https://via.placeholder.com/100'
-              informant='Informante'
-              date='24/05/2023'
-              text='Texto de la segunda lista'
-            />
+            <Row>
+              <NewList
+                imageUrl='https://via.placeholder.com/100'
+                informant='Informante'
+                date='24/05/2023'
+                title='Texto de la segunda lista'
+              />
+            </Row>
             <hr className='my-4' />
-            <NewList
-              imageUrl='https://via.placeholder.com/100'
-              informant='Informante'
-              date='24/05/2023'
-              text='Texto de la tercera lista'
-            />
+            <Row>
+              <NewList
+                imageUrl='https://via.placeholder.com/100'
+                informant='Informante'
+                date='24/05/2023'
+                title='Texto de la tercera lista'
+              />
+            </Row>
           </Col>
         </Row>
       </Container>

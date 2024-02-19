@@ -30,7 +30,7 @@ const SectionResultados = () => {
               imageUrl='https://via.placeholder.com/100'
               informant='Informante'
               date='24/05/2023'
-              title='Lorem ipsum dolor sit amet consectetur adipisicing elit. impedit sunt iusto eos laborum adipisci, aliquid repudiandae ratione beatae aut! Nostrum, consequatur explicabo.'
+              title='Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus'
             />
           </Col>
           <Col>
@@ -38,7 +38,7 @@ const SectionResultados = () => {
               imageUrl='https://via.placeholder.com/100'
               informant='Informante'
               date='24/05/2023'
-              title='Lorem ipsum dolor sit amet consectetur adipisicing elit. impedit sunt iusto eos laborum adipisci, aliquid repudiandae ratione beatae aut! Nostrum, consequatur explicabo.'
+              title='Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus'
             />
           </Col>
         </Row>

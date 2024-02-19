@@ -36,53 +36,25 @@ const DropMenu = ({ isOpen, setIsOpen }) => {
                   <Col md={6}>
                     <NewIcon
                       imageUrl='https://via.placeholder.com/100'
-                      text='Lorem ipsum.'
+                      title='Lorem ipsum.'
                     />
                   </Col>
                   <Col md={6}>
                     <NewIcon
                       imageUrl='https://via.placeholder.com/100'
-                      text='Lorem ipsum.'
+                      title='Lorem ipsum.'
                     />
                   </Col>
                   <Col md={6}>
                     <NewIcon
                       imageUrl='https://via.placeholder.com/100'
-                      text='Lorem ipsum.'
+                      title='Lorem ipsum.'
                     />
                   </Col>
                   <Col md={6}>
                     <NewIcon
                       imageUrl='https://via.placeholder.com/100'
-                      text='Lorem ipsum.'
-                    />
-                  </Col>
-                </Row>
-              </Col>
-              <Col md={4}>
-                <Row className='d-flex flex-column gap-4'>
-                  <Col md={6}>
-                    <NewIcon
-                      imageUrl='https://via.placeholder.com/100'
-                      text='Lorem ipsum.'
-                    />
-                  </Col>
-                  <Col md={6}>
-                    <NewIcon
-                      imageUrl='https://via.placeholder.com/100'
-                      text='Lorem ipsum.'
-                    />
-                  </Col>
-                  <Col md={6}>
-                    <NewIcon
-                      imageUrl='https://via.placeholder.com/100'
-                      text='Lorem ipsum.'
-                    />
-                  </Col>
-                  <Col md={6}>
-                    <NewIcon
-                      imageUrl='https://via.placeholder.com/100'
-                      text='Lorem ipsum.'
+                      title='Lorem ipsum.'
                     />
                   </Col>
                 </Row>
@@ -92,27 +64,55 @@ const DropMenu = ({ isOpen, setIsOpen }) => {
                   <Col md={6}>
                     <NewIcon
                       imageUrl='https://via.placeholder.com/100'
-                      text='Lorem ipsum.'
+                      title='Lorem ipsum.'
+                    />
+                  </Col>
+                  <Col md={6}>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      title='Lorem ipsum.'
+                    />
+                  </Col>
+                  <Col md={6}>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      title='Lorem ipsum.'
+                    />
+                  </Col>
+                  <Col md={6}>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      title='Lorem ipsum.'
+                    />
+                  </Col>
+                </Row>
+              </Col>
+              <Col md={4}>
+                <Row className='d-flex flex-column gap-4'>
+                  <Col md={6}>
+                    <NewIcon
+                      imageUrl='https://via.placeholder.com/100'
+                      title='Lorem ipsum.'
                     />
                   </Col>
 
                   <Col md={6}>
                     <NewIcon
                       imageUrl='https://via.placeholder.com/100'
-                      text='Lorem ipsum.'
+                      title='Lorem ipsum.'
                     />
                   </Col>
 
                   <Col md={6}>
                     <NewIcon
                       imageUrl='https://via.placeholder.com/100'
-                      text='Lorem ipsum.'
+                      title='Lorem ipsum.'
                     />
                   </Col>
                   <Col md={6}>
                     <NewIcon
                       imageUrl='https://via.placeholder.com/100'
-                      text='Lorem ipsum.'
+                      title='Lorem ipsum.'
                     />
                   </Col>
                 </Row>
@@ -127,7 +127,7 @@ const DropMenu = ({ isOpen, setIsOpen }) => {
                 imageUrl='https://via.placeholder.com/100'
                 informant='Informante'
                 date='24/05/2023'
-                text='Texto de la primera lista'
+                title='Texto de la primera lista'
               />
             </Row>
             <Row>
@@ -135,7 +135,7 @@ const DropMenu = ({ isOpen, setIsOpen }) => {
                 imageUrl='https://via.placeholder.com/100'
                 informant='Informante'
                 date='24/05/2023'
-                text='Texto de la primera lista'
+                title='Texto de la primera lista'
               />
             </Row>
           </Col>

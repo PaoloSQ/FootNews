@@ -33,13 +33,13 @@ const CompetitionSection = () => {
                 <Col>
                   <NewIcon
                     imageUrl='https://via.placeholder.com/100'
-                    text='Lorem ipsum.'
+                    title='Lorem ipsum.'
                   />
                 </Col>
                 <Col>
                   <NewIcon
                     imageUrl='https://via.placeholder.com/100'
-                    text='Lorem ipsum.'
+                    title='Lorem ipsum.'
                   />
                 </Col>
               </Row>
@@ -47,13 +47,13 @@ const CompetitionSection = () => {
                 <Col>
                   <NewIcon
                     imageUrl='https://via.placeholder.com/100'
-                    text='Lorem ipsum.'
+                    title='Lorem ipsum.'
                   />
                 </Col>
                 <Col>
                   <NewIcon
                     imageUrl='https://via.placeholder.com/100'
-                    text='Lorem ipsum.'
+                    title='Lorem ipsum.'
                   />
                 </Col>
               </Row>
@@ -61,13 +61,13 @@ const CompetitionSection = () => {
                 <Col>
                   <NewIcon
                     imageUrl='https://via.placeholder.com/100'
-                    text='Lorem ipsum.'
+                    title='Lorem ipsum.'
                   />
                 </Col>
                 <Col>
                   <NewIcon
                     imageUrl='https://via.placeholder.com/100'
-                    text='Lorem ipsum.'
+                    title='Lorem ipsum.'
                   />
                 </Col>
               </Row>
@@ -80,13 +80,13 @@ const CompetitionSection = () => {
                 <Col>
                   <NewIcon
                     imageUrl='https://via.placeholder.com/100'
-                    text='Lorem ipsum.'
+                    title='Lorem ipsum.'
                   />
                 </Col>
                 <Col>
                   <NewIcon
                     imageUrl='https://via.placeholder.com/100'
-                    text='Lorem ipsum.'
+                    title='Lorem ipsum.'
                   />
                 </Col>
               </Row>
@@ -94,13 +94,13 @@ const CompetitionSection = () => {
                 <Col>
                   <NewIcon
                     imageUrl='https://via.placeholder.com/100'
-                    text='Lorem ipsum.'
+                    title='Lorem ipsum.'
                   />
                 </Col>
                 <Col>
                   <NewIcon
                     imageUrl='https://via.placeholder.com/100'
-                    text='Lorem ipsum.'
+                    title='Lorem ipsum.'
                   />
                 </Col>
               </Row>
@@ -108,13 +108,13 @@ const CompetitionSection = () => {
                 <Col>
                   <NewIcon
                     imageUrl='https://via.placeholder.com/100'
-                    text='Lorem ipsum.'
+                    title='Lorem ipsum.'
                   />
                 </Col>
                 <Col>
                   <NewIcon
                     imageUrl='https://via.placeholder.com/100'
-                    text='Lorem ipsum.'
+                    title='Lorem ipsum.'
                   />
                 </Col>
               </Row>

@@ -5,9 +5,9 @@ import Footer from '@components/layout/Footer/Footer'
 import DetailBanner from '@common/DetailBanner/DetailBanner'
 import DetailNav from '@common/DetailNav/DetailNav'
 
-import SectionNoticias from './SectionNoticias/SectionNoticias'
-import SectionPartidos from './SectionPartidos/SectionPartidos'
-import SectionClasificacion from './SectionClasificacion/SectionClasificacion'
+import SectionNoticias from '@layout/Details/SectionNoticias/SectionNoticias'
+import SectionPartidos from '@layout/Details/SectionPartidos/SectionPartidos'
+import SectionClasificacion from '@layout/Details/SectionClasificacion/SectionClasificacion'
 
 import styles from './CompeticionesPage.module.scss'
 

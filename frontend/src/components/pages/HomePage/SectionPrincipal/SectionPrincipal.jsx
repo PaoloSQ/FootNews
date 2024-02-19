@@ -23,25 +23,25 @@ const SectionPrincipal = () => {
               imageUrl='https://via.placeholder.com/100'
               informant='Informante'
               date='24/05/2023'
-              text='Lorem ipsum dolor sit amet adipisicing elit. Temporibus'
+              title='Lorem ipsum dolor sit amet adipisicing elit. Temporibus'
             />
             <NewList
               imageUrl='https://via.placeholder.com/100'
               informant='Informante'
               date='24/05/2023'
-              text='Lorem ipsum dolor sit amet adipisicing elit. Temporibus'
+              title='Lorem ipsum dolor sit amet adipisicing elit. Temporibus'
             />
             <NewList
               imageUrl='https://via.placeholder.com/100'
               informant='Informante'
               date='24/05/2023'
-              text='Lorem ipsum dolor sit amet adipisicing elit. Temporibus'
+              title='Lorem ipsum dolor sit amet adipisicing elit. Temporibus'
             />
             <NewList
               imageUrl='https://via.placeholder.com/100'
               informant='Informante'
               date='24/05/2023'
-              text='Lorem ipsum dolor sit amet adipisicing elit. Temporibus'
+              title='Lorem ipsum dolor sit amet adipisicing elit. Temporibus'
             />
           </div>
         </Col>

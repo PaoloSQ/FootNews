@@ -125,7 +125,7 @@ const Search = ({ isOpen, closeSearch }) => {
       className={`${isOpen ? 'd-flex' : 'd-none'} ${styles.search} position-fixed top-0 d-flex`}
       onClick={closeSearch}>
       <div
-        className={`${isOpen ? 'animate__animated animate__zoomIn d-flex' : 'd-none'} ${styles.searchContainer} flex-column align-items-center pb-4 position-relative w-50 mx-auto mt-5`}
+        className={`${isOpen ? 'animate__animated animate__zoomIn d-flex' : 'd-none'} ${styles.searchContainer} flex-column align-items-center position-relative w-50 mx-auto mt-5`}
         onClick={(event) => event.stopPropagation()}>
         <Row className='w-100 position-relative align-items-center justify-content-center'>
           <SearchInput

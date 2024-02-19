@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Card } from 'react-bootstrap'
 import style from './NewList.module.scss'
 
-const NewList = ({ moreClasses, imageUrl, informant, date, text }) => {
+const NewList = ({ moreClasses, imageUrl, informant, date, title }) => {
   return (
     <Col xs={12} className={`${style.newList} ${moreClasses}`}>
       <Card className='d-flex flex-row gap-4 bg-transparent border-0'>
@@ -12,8 +12,8 @@ const NewList = ({ moreClasses, imageUrl, informant, date, text }) => {
             style={{ backgroundImage: `url(${imageUrl})` }}></div>
         </a>
         <Card.Body className='d-flex flex-column p-0 justify-content-center'>
-          <div className={style.text}>
-            <a href=''>{text}</a>
+          <div className={style.title}>
+            <a href=''>{title}</a>
           </div>
           <div className={`${style.info} d-flex justify-content-between mt-3`}>
             <div>{informant}</div>
