@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Header from '../../layout/Header/Header'
-import Footer from '../../layout/Footer/Footer'
+import Header from '@components/layout/Header/Header'
+import Footer from '@components/layout/Footer/Footer'
 
 import SectionPrincipal from './SectionPrincipal/SectionPrincipal'
 import SectionTranferencias from './SectionTransferencias/SectionTransferencias'

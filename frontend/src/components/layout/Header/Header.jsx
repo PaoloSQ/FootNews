@@ -40,7 +40,12 @@ const Header = () => {
         <Container className={styles.navbarContainer}>
           <Navbar expand='lg' className={styles.customNavbar}>
             <Navbar.Brand as={Link} to='/' className={styles.navbarBrand}>
-              <Image src='logo.png' id={styles.logo_img} fluid rounded />
+              <Image
+                src={`${import.meta.env.VITE_HOST_URL}/logo.png`}
+                id={styles.logo_img}
+                fluid
+                rounded
+              />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
             <Navbar.Collapse id='basic-navbar-nav'>

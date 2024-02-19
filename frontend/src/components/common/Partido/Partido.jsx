@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Badge } from 'react-bootstrap'
-import Equipo from './Equipo/Equipo'
+import Equipo from '../Equipo/Equipo'
 
 const Partido = ({ equipoLocal, equipoVisitante, estadoPartido }) => {
   return (

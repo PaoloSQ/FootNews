@@ -6,7 +6,7 @@
 
 .header {
   background-color: $bg-color_2;
-  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+  border-bottom: 1px solid rgba($color: $red_2, $alpha: 0.4);
   z-index: 200;
   position: relative;
 }

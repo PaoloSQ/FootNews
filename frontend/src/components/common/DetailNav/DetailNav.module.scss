@@ -1,0 +1,13 @@
+.detailNav {
+  p {
+    border-bottom: 3px solid rgba(167, 167, 167, 0.247);
+    font-weight: bold;
+    width: min-content;
+    transition: border 0.2s ease-in-out;
+
+    &:hover,
+    &.active {
+      border-bottom: 3px solid rgba($color: white, $alpha: 1);
+    }
+  }
+}

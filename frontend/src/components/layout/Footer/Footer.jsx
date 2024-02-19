@@ -30,11 +30,12 @@ const Footer = () => {
           <Row className='justify-content-between align-items-center'>
             <Col md={8}>
               <p>
-                <span>Privacy Policy</span> | <span>Terms & Conditions</span>
+                <span>Política de Privacidad</span> |{' '}
+                <span>Términos y Condiciones</span>
               </p>
             </Col>
             <Col md={4}>
-              <p className='text-end'>All copyright (C) 2024 Reservad</p>
+              <p className='text-end'>Todos los derechos (C) 2024 Reservados</p>
             </Col>
           </Row>
         </Container>

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Header from '../../layout/Header/Header'
-import Footer from '../../layout/Footer/Footer'
+import Header from '@components/layout/Header/Header'
+import Footer from '@components/layout/Footer/Footer'
 
 import SectionNew from './SectionNew/SectionNew'
 import FilterBar from './FilterBar/FilterBar'
