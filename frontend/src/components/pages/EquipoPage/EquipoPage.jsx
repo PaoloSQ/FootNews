@@ -11,7 +11,7 @@ import SectionPlantilla from '@layout/Details/SectionPlantilla/SectionPlantilla'
 import SectionTransferencias from '@layout/Details/SectionTransferencias/SectionTransferencias'
 
 const EquipoPage = () => {
-  const [currentSection, setCurrentSection] = useState('Noticias')
+  const [currentSection, setCurrentSection] = useState('Plantilla')
   const [noticiasData, setNoticiasData] = useState([])
   const [partidosData, setPartidosData] = useState([])
 

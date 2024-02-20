@@ -1,0 +1,21 @@
+.jugadorCard {
+  box-shadow: 0 0 10px 3px $red_2;
+  border: 1px solid $red_2;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    transform: scale(1.01);
+  }
+}
+
+.imageContainer {
+  position: relative;
+  border-bottom: 3px solid $red_2;
+}
+
+.imagenJugador {
+  z-index: 20;
+  background-color: white;
+}
