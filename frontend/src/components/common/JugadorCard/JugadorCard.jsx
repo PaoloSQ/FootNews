@@ -10,7 +10,7 @@ const JugadorCard = ({ nombre, imagenJugador, numero }) => {
         <img
           className={styles.imagenJugador}
           src={imagenJugador}
-          alt={nombre + 'Imagen'}
+          alt={nombre + '-Imagen'}
         />
       </Row>
       <Row className='h-100 d-flex align-items-center justify-content-center'>

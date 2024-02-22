@@ -1,8 +1,9 @@
 import React from 'react'
-import { Container, Row, Col, Image } from 'react-bootstrap'
+import { Container, Image } from 'react-bootstrap'
 import styles from './Equipo.module.scss'
 
-const Equipo = ({ nombre, marcador, logo }) => {
+const Equipo = ({ equipo }) => {
+  const { nombre, marcador, logo } = equipo
   return (
     <Container
       xs={6}

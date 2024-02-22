@@ -79,7 +79,7 @@ const SectionPartidos = () => {
             xs={12}
             md={6}
             lg={4}>
-            <Partido {...partido} />
+            <Partido partido={partido} />
           </Col>
         ))}
       </Container>

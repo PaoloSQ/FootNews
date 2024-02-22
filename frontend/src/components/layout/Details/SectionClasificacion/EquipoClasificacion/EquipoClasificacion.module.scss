@@ -1,0 +1,15 @@
+.equipoColumn {
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.equipoRow:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}

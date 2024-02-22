@@ -65,7 +65,7 @@ const Header = () => {
                   className={styles.navLink}
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}>
-                  Competencias
+                  Competiciones
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

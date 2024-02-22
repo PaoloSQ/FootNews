@@ -6,13 +6,13 @@ import { BsArrowRight } from 'react-icons/bs'
 
 const SectionPartidos = ({ partidos }) => {
   return (
-    <Container className='text-white'>
-      <Container className='pt-4 py-2 px-5 d-flex gap-5 align-items-center'>
+    <Container className='text-white py-3 px-5'>
+      <Container className='pt-4 py-2 px-5 d-flex gap-5 align-items-center justify-content-between'>
         <img
           src='https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_96x96.png'
           alt='LaLiga'
         />
-        <h3>LaLiga - Jornada 25</h3>
+        <h2 className='mb-0'>LaLiga - Jornada 25</h2>
       </Container>
 
       {Object.entries(partidos).map(([mes, partidosMes]) => (
@@ -23,7 +23,7 @@ const SectionPartidos = ({ partidos }) => {
           <Row>
             {partidosMes.map((partido, index) => (
               <Col className='my-3' xs={12} md={6} lg={4} key={index}>
-                <Partido {...partido} />
+                <Partido partido={partido} />
               </Col>
             ))}
           </Row>
