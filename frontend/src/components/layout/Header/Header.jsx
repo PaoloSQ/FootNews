@@ -1,7 +1,8 @@
 // Header.jsx
 import React, { useState } from 'react'
-import { Navbar, Nav, Image, Container } from 'react-bootstrap'
+import { Navbar, Nav, Image, Container, Row, Col } from 'react-bootstrap'
 import { BsSearch } from 'react-icons/bs'
+import { FaRegUser } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import Search from './Search/Search'
 import styles from './Header.module.scss'
@@ -38,7 +39,7 @@ const Header = () => {
     <>
       <header className={styles.header}>
         <Container className={styles.navbarContainer}>
-          <Navbar expand='lg' className={styles.customNavbar}>
+          <Navbar className={styles.customNavbar}>
             <Navbar.Brand as={Link} to='/' className={styles.navbarBrand}>
               <Image
                 src={`${import.meta.env.VITE_HOST_URL}/logo.png`}
@@ -68,11 +69,22 @@ const Header = () => {
                   Competiciones
                 </Nav.Link>
               </Nav>
+              <Row className='d-flex flex-row '>
+                <Col md={5}>
+                  <BsSearch
+                    className={`${styles.btnSearch} ${styles.headerIcon} ${isOpenSearch ? 'animate__animated animate__fadeIn' : ''}`}
+                    onClick={openSearch}
+                  />
+                </Col>
+                <Col md={5}>
+                  <Link to='/login'>
+                    <FaRegUser
+                      className={`${styles.btnUser} ${styles.headerIcon}`}
+                    />
+                  </Link>
+                </Col>
+              </Row>
             </Navbar.Collapse>
-            <BsSearch
-              className={`${styles.btnSearch} ${isOpenSearch ? 'animate__animated animate__fadeIn' : ''}`}
-              onClick={openSearch}
-            />
           </Navbar>
         </Container>
       </header>

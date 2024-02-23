@@ -4,7 +4,7 @@ import styles from './SearchResults.module.scss'
 const SearchResults = ({ sections }) => {
   return (
     <div
-      className={`${styles.searchResultsContainer} d-flex flex-column px-3 py-2`}>
+      className={`${styles.searchResultsContainer} d-flex flex-column px-3 p4-2`}>
       {sections.map(
         (section, index) =>
           section.length > 0 && (

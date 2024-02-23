@@ -22,12 +22,19 @@
   margin-left: 0.5rem;
 }
 
-.btnSearch {
-  scale: 1.4;
+.headerIcon {
+  margin-inline: 20px;
+  scale: 1.7;
   transition: 0.3s;
   cursor: pointer;
 
   &:hover {
     transform: scale(1.1);
+  }
+}
+
+.btnUser {
+  &:hover {
+    color: white;
   }
 }
