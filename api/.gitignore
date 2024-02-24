@@ -1,10 +1,42 @@
-
-###> symfony/framework-bundle ###
-/.env.local
-/.env.local.php
-/.env.*.local
-/config/secrets/prod/prod.decrypt.private.php
-/public/bundles/
-/var/
+# Archivos y directorios generados automáticamente
 /vendor/
-###< symfony/framework-bundle ###
+/node_modules/
+/public/bundles/
+/public/uploads/
+/var/
+/data/db/
+
+# Archivos de configuración local
+.env
+.env.local
+.env.*.local
+.phpstorm.meta.php
+
+# Archivos de dependencias de Composer
+/composer.lock
+
+# Directorio de caché de Symfony
+/var/cache/
+
+# Archivos de caché y registros generados por Symfony
+/var/log/
+
+# Archivos de caché de Doctrine
+/var/cache/doctrine/
+
+# Archivos de caché de Twig
+/var/cache/twig/
+
+# Directorio de caché de Symfony Profiler
+/var/cache/profiler/
+
+# Directorio de caché de assets de Symfony
+/var/cache/dev/
+/var/cache/prod/
+
+# Archivos de caché de PHPStorm
+/.phpstorm.meta.php
+
+# Archivos de dependencias de npm
+package-lock.json
+npm-debug.log
