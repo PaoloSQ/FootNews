@@ -1,0 +1,34 @@
+version: "3.9"
+
+services:
+  app:
+    container_name: footnews-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - APACHE_SERVER_NAME=localhost
+      - COMPOSER_DOCKER_HOST=localhost
+      - XDEBUG_MODE=off
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "8000:80"
+    networks:
+      - app-network
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo
+    container_name: footnews-db
+    volumes:
+      - ./data/db:/data/db
+    ports:
+      - "27027:27017"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    name: footnews-network

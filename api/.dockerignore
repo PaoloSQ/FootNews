@@ -1,0 +1,22 @@
+# Archivos de configuración local
+.env
+.env.local
+
+# Archivos de caché
+var/cache/*
+var/log/*
+
+# Archivos de tests
+tests/*
+
+# Archivos de vendor
+vendor/
+
+# Archivos de Symfony
+bin/console
+config/routes.yaml
+public/index.php
+
+# Otros archivos temporales
+.idea/
+.git/
